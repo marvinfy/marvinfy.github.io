@@ -4,6 +4,9 @@
 # Define the DocPad Configuration
 docpadConfig = {
 	# ...
+
+	outPath: '..'
+
 }
 
 # Export the DocPad Configuration
