@@ -53,14 +53,55 @@
 
     <!-- Begin page content -->
     <div class="container">
-		<h4>About Me</h4>
-My name is Marcus Vinicius Neves Silva (yeah, a big name - no pun intended). 
-Most people know me as Marcus, but my family and some friends call me Vini (English: Vinny). 
-You can pick either one or use the nickname MarVin, a mash-up of the two ;)
+		<div class="page-header">
+	<h2>About Marvin</h2>
+</div>
 
-</br>
-</br>
-I am a Brazilian-born, Canadian-hearted Software Developer living in the beautiful city of <a href="http://en.wikipedia.org/wiki/St._John%27s,_Newfoundland_and_Labrador">St. John's, Newfoundland and Labrador</a>.
+
+<div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="assets/images/avatar.png" alt="Marvin" height="192" width="192">
+    </a>
+  </div>
+  <div class="media-body">
+    <!--<h4 class="media-heading">Media heading</h4>-->
+
+<p>My name is Marcus Vinicius Neves Silva (yeah, a big name - no pun intended). 
+Most people know me as Marcus, but my family and a few friends call me Vini (English: Vinny). 
+You can pick either one or call me by the nickname Marvin, a mash-up of the two ;)</p>
+
+<p>I am a Brazilian-born, Canadian-hearted Software Developer living in the beautiful and 
+peaceful city of <a href="http://en.wikipedia.org/wiki/St._John%27s,_Newfoundland_and_Labrador" target="_blank">St. John's, Newfoundland and Labrador</a>.</p>
+
+<p>I work for <a href="http://www.rutter.ca/" target="_blank">Rutter Inc.</a> 
+developing Radar Systems and am currently doing a Master of Science in 
+Computer Science at <a href="http://www.mun.ca/" target="_blank">Memorial University of Newfoundland</a>. 
+<a href="https://twitter.com/alexhillman/status/561660175162286080" target="_blank">Whenever possible</a>, 
+I try and work on my side projects.</p>
+
+<p>I love low-level software development in general, specially using C and C++, 
+but my main interests are in Compilers, 
+<a href="http://en.wikipedia.org/wiki/Virtual_machine#Process_virtual_machines" target="_blank">Process Virtual Machines</a>, 
+Radar Systems, and Distributed Systems. More recently, though, I've been also interested 
+in mobile development using C# and 
+<a href="http://xamarin.com/platform" target="_blank">The Xamarin Platform</a>.</p>
+
+  </div>
+</div>
+
+<div class="page-header">
+	<h2>Conquering the Earth!</h2>
+</div>
+<p class="lead">Er... Not quite. </p>
+<p>In spite of my passion for traveling, I've been to only a handful of countries in our 
+beautiful planet (map under construction).</p>
+
+<div class="well well-sm">
+	<div id="map-canvas"></div>
+</div>
+
+</div>
 
 <script src="https://maps.googleapis.com/maps/api/js"></script>
 
@@ -76,18 +117,6 @@ I am a Brazilian-born, Canadian-hearted Software Developer living in the beautif
    }
    google.maps.event.addDomListener(window, 'load', initialize);
 </script>
-
-<h4>Conquering the Earth!</h4>
-Er... Not quite. 
-</br>
-In spite of my passion for traveling, I've been to only a handful of
-countries in our beautiful planet.
-</br>
-
-</br>
-<div id="map-canvas"></div>
-</br>
-</br>
     	<!--
       <div class="page-header">
         <h1>Sticky footer with fixed navbar</h1>
