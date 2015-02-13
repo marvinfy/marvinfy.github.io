@@ -53,7 +53,30 @@
 
     <!-- Begin page content -->
     <div class="container">
-		<p>I like long walks on the beach. <strong>Plus I rock at DocPad!</strong></p>
+		<h4>About Me</h4>
+My name is Marcus Vinícius Neves Silva (yeah, a big name - no pun intended). 
+I am a Brazilian-born, Canadian-hearted Software Developer living in <a href="http://en.wikipedia.org/wiki/St._John%27s,_Newfoundland_and_Labrador">St. John's, Newfoundland</a>.
+
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+
+<script>
+	function initialize() {
+		var mapCanvas = document.getElementById('map-canvas');
+		var mapOptions = {
+			center: new google.maps.LatLng(18, 0),
+			zoom: 2,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		}
+		var map = new google.maps.Map(mapCanvas, mapOptions)
+   }
+   google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<h4>Conquering the Earth!</h4>
+<p>Er... Not quite. In spite of my passion for traveling, I've been to only a handful of
+countries in our beautiful planet.
+</p>
+<div id="map-canvas"></div>
     	<!--
       <div class="page-header">
         <h1>Sticky footer with fixed navbar</h1>
